@@ -8,7 +8,7 @@ RSpec.describe Human do
     let(:name) { 'michal' }
     let(:surname) { 'cebula' }
 
-    it { is_expected.to eq 'my names is ' + name + surname }
+    it { is_expected.to eq 'my name is ' + name + surname }
 
     shared_examples 'failed_introduction' do
       it 'apologizes for not having full name' do
